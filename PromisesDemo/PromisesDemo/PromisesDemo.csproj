@@ -265,7 +265,7 @@
     <Content Include="Scripts\PromiseDemo\bluebird.js" />
     <Content Include="Scripts\PromiseDemo\ChainedPromisesDemo.js" />
     <Content Include="Scripts\PromiseDemo\ErrorHandlingDemo.js" />
-    <Content Include="Scripts\PromiseDemo\JavaScript1.js" />
+    <Content Include="Scripts\PromiseDemo\SimplePromiseDemo.js" />
     <Content Include="Scripts\PromiseDemo\SingleRequestDemo.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -305,6 +305,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\PromisesDemo\ErrorHandlingDemo.cshtml" />
+    <Content Include="Views\PromisesDemo\SimplePromiseDemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

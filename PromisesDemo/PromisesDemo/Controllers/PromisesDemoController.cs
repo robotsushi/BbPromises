@@ -23,6 +23,17 @@ namespace PromisesDemo.Controllers
             return View();
         }
 
+        public ActionResult SimplePromiseDemo()
+        {
+            ViewBag.Message = "Simple Promise Demo";
+            return View();
+        }
+
+        public ActionResult ChainedPromisesDemo()
+        {
+            ViewBag.Message = "Chained Promises Demo";
+            return View();
+        }
 
         [HttpPost]
         public JsonResult GetData()
