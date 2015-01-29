@@ -35,6 +35,18 @@ namespace PromisesDemo.Controllers
             return View();
         }
 
+        public ActionResult SynchronizationDemo()
+        {
+            ViewBag.Message = "Synchronization Demo";
+            return View();
+        }
+
+        public ActionResult CoordinationDemo()
+        {
+            ViewBag.Message = "Synchronization Demo";
+            return View();
+        }
+
         [HttpPost]
         public JsonResult GetData()
         {

@@ -14,8 +14,11 @@
 
         console.log('starting countdown');
 
-        countdownAsync().then(function() {
+        countdownAsync().then(function () {
             console.log('countdown complete');
+        })
+        .catch(function(e) {
+            console.log(e);
         });
 
     };
@@ -39,7 +42,7 @@
 
             };
 
-            countdown();
+            countdown();            
 
         });
 
